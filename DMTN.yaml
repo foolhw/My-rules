@@ -1,34 +1,24 @@
-  - DOMAIN-KEYWORD,push-uk-live,🇩🇪 欧洲节点
-  - IP-CIDR,5.182.228.210/12,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,194.59.155.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,213.183.40.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,213.183.42.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,213.183.47.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,5.182.228.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,5.182.229.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,5.182.231.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,5.188.172.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,77.72.19.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,77.72.22.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,77.72.23.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,92.119.88.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,92.119.89.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,93.189.56.0/24,🇩🇪 欧洲节点,no-resolve
-  - DOMAIN-SUFFIX,akciatv.ru,🇩🇪 欧洲节点
-  - DOMAIN-SUFFIX,russtv.net,🇩🇪 欧洲节点
-  - DOMAIN-SUFFIX,zatikov.net,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,russtv,🇩🇪 欧洲节点
-  - DOMAIN-SUFFIX,megogo.xyz,🇩🇪 欧洲节点
-  - DOMAIN-SUFFIX,pp.ru,🇩🇪 欧洲节点
-  - DOMAIN-SUFFIX,satrip.net.ru,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,light.ga,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,light.ml,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,light.cf,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,light.gq,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,light.tk,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,s3.fr,🇩🇪 欧洲节点
-  - DOMAIN-KEYWORD,s2.fr,🇩🇪 欧洲节点
-  - IP-CIDR,104.21.234.0/24,🇩🇪 欧洲节点,no-resolve
-  - IP-CIDR,104.21.235.0/24,🇩🇪 欧洲节点,no-resolve
-  - DOMAIN-SUFFIX,troya.tv,🇩🇪 欧洲节点
-  - DOMAIN-SUFFIX,tv.team,🇩🇪 欧洲节点
+# NAME: DMTN
+# AUTHOR: Will
+# REPO: https://github.com/foolhw/My-rules
+# UPDATED: 2023-11-12 
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 22
+# TOTAL: 23
+payload:
+  - IP-CIDR,122.254.0.0/12
+  - IP-CIDR,37.49.0.0/12
+  - IP-CIDR,45.148.0.0/12
+  - IP-CIDR,185.53.0.0/12
+  - IP-CIDR,185.209.0.0/12
+  - IP-CIDR,45.143.0.0/12
+  - IP-CIDR,45.153.0.0/12
+  - IP-CIDR,102.165.0.0/12
+  - IP-CIDR,217.74.0.0/12
+  - IP-CIDR,190.93.0.0/12
+  - IP-CIDR,154.194.0.0/12
+  - IP-CIDR,212.119.0.0/12
+  - IP-CIDR,45.65.0.0/12
+  - IP-CIDR,77.247.109.0/24
+  - DOMAIN-SUFFIX,venom-vip.com
+  - DOMAIN-SUFFIX,dmtn.tv
