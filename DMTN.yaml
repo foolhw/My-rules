@@ -2,9 +2,9 @@
 # AUTHOR: Will
 # REPO: https://github.com/foolhw/My-rules
 # UPDATED: 2023-11-12 
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 22
-# TOTAL: 23
+# IP-CIDR: 14
+# DOMAIN-SUFFIX: 2
+# TOTAL: 16
 payload:
   - IP-CIDR,122.254.0.0/12
   - IP-CIDR,37.49.0.0/12
