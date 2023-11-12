@@ -1,0 +1,9 @@
+# NAME: Astro
+# AUTHOR: Will
+# REPO: https://github.com/foolhw/My-rules
+# UPDATED: 2023-11-12
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+payload:
+  - DOMAIN-SUFFIX,bein-apac-live.akamaized.net
+  - DOMAIN-SUFFIX,astro.com.my
