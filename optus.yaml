@@ -1,0 +1,8 @@
+# NAME: Optus
+# AUTHOR: Will
+# REPO: https://github.com/foolhw/My-rules
+# UPDATED: 2023-11-12
+# DOMAIN-SUFFIX: 
+# TOTAL: 15
+payload:
+  - DOMAIN-KEYWORD,optus
