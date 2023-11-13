@@ -1,10 +1,5 @@
 # NAME: DMTN
-# AUTHOR: Will
-# REPO: https://github.com/foolhw/My-rules
-# UPDATED: 2023-11-12 
-# IP-CIDR: 14
-# DOMAIN-SUFFIX: 2
-# TOTAL: 16
+# UPDATED: 2023-11-13
 payload:
   - IP-CIDR,122.254.0.0/12
   - IP-CIDR,37.49.0.0/12
