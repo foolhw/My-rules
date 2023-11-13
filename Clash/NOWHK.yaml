@@ -6,8 +6,8 @@
 # IP-CIDR：2
 # TOTAL: 5
 payload:
-  - DOMAIN-SUFFIX,kr.nowplay.link,🇭🇰 香港节点
-  - DOMAIN-SUFFIX,sg.nowplay.link,🇭🇰 香港节点
-  - DOMAIN-SUFFIX,hk.nowplay.link,🇭🇰 香港节点
-  - IP-CIDR,168.138.191.116/24,🇭🇰 香港节点 
-  - IP-CIDR,146.56.137.241/24,🇭🇰 香港节点
+  - DOMAIN-SUFFIX,kr.nowplay.link
+  - DOMAIN-SUFFIX,sg.nowplay.link
+  - DOMAIN-SUFFIX,hk.nowplay.link
+  - IP-CIDR,168.138.191.116/24 
+  - IP-CIDR,146.56.137.241/24
