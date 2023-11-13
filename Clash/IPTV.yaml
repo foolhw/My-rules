@@ -1,11 +1,5 @@
 # NAME: IPTV（iLook、TV.team、iLook）
-# AUTHOR: Will
-# REPO: https://github.com/foolhw/My-rules
 # UPDATED: 2023-11-12 
-# DOMAIN-KEYWORD: 9
-# IP-CIDR:17
-# DOMAIN-SUFFIX: 8
-# TOTAL: 34
 payload:
   - DOMAIN-KEYWORD,push-uk-live
   - IP-CIDR,5.182.228.210/12
@@ -42,4 +36,3 @@ payload:
   - DOMAIN-SUFFIX,troya.tv
   - DOMAIN_SUFFIX,troya.one
   - DOMAIN-SUFFIX,tv.team
-  
