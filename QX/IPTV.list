@@ -1,11 +1,5 @@
 # NAME: IPTV（iLook、TV.team、iLook）
-# AUTHOR: Will
-# REPO: https://github.com/foolhw/My-rules
-# UPDATED: 2023-11-12 
-# HOST-KEYWORD: 9
-# IP-CIDR:17
-# HOST-SUFFIX: 8
-# TOTAL: 34
+# UPDATED: 2023-11-13
 HOST-KEYWORD,push-uk-live,IPTV
 IP-CIDR,5.182.228.210/12,IPTV
 IP-CIDR,194.59.155.0/24,IPTV
