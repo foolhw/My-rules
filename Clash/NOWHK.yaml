@@ -1,10 +1,5 @@
 # NAME: NOWHK
-# AUTHOR: Will
-# REPO: https://github.com/foolhw/My-rules
 # UPDATED: 2023-11-12
-# DOMAIN-SUFFIX: 3
-# IP-CIDR：2
-# TOTAL: 5
 payload:
   - DOMAIN-SUFFIX,kr.nowplay.link
   - DOMAIN-SUFFIX,sg.nowplay.link
