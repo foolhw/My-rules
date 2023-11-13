@@ -33,6 +33,5 @@ payload:
   - DOMAIN-KEYWORD,s2.fr
   - IP-CIDR,104.21.234.0/24
   - IP-CIDR,104.21.235.0/24
-  - DOMAIN-SUFFIX,troya.tv
-  - DOMAIN-SUFFIX,troya.one
+  - DOMAIN-KEYWORD,troya
   - DOMAIN-SUFFIX,tv.team
