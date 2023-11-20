@@ -1,0 +1,5 @@
+# NAME: AMC+
+# UPDATED: 2023-11-20
+payload:
+  - DOMAIN-SUFFIX,amcn.com
+  - DOMAIN-SUFFIX,amcplus.com
