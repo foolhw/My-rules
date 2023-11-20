@@ -2,3 +2,9 @@
 # UPDATED: 2023-11-20
 HOST-SUFFIX,amcn.com,AMCPlus
 HOST-SUFFIX,amcplus.com,AMCPlus
+HOST-SUFFIX,shudder.com,AMCPlus
+HOST-SUFFIX,amcsvod.io,AMCPlus
+HOST,boltshudder1-a.akamaihd.net,AMCPlus
+HOST,boltsundance1-a.akamaihd.net,AMCPlus
+HOST-SUFFIX,sundancetv.com,AMCPlus
+HOST-SUFFIX,sundancenow.com,AMCPlus
