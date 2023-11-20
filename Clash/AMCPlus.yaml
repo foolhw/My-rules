@@ -3,3 +3,9 @@
 payload:
   - DOMAIN-SUFFIX,amcn.com
   - DOMAIN-SUFFIX,amcplus.com
+  - DOMAIN-SUFFIX,shudder.com
+  - DOMAIN-SUFFIX,amcsvod.io
+  - DOMAIN,boltshudder1-a.akamaihd.net
+  - DOMAIN,boltsundance1-a.akamaihd.net
+  - DOMAIN-SUFFIX,sundancetv.com
+  - DOMAIN-SUFFIX,sundancenow.com
