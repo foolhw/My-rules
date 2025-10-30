@@ -1,8 +1,6 @@
-# NAME: NOWHK
-# UPDATED: 2023-11-12
+# NAME: BENTV
+# UPDATED: 2025-10-30
 payload:
-  - DOMAIN-SUFFIX,kr.nowplay.link
-  - DOMAIN-SUFFIX,sg.nowplay.link
-  - DOMAIN-SUFFIX,hk.nowplay.link
-  - IP-CIDR,168.138.191.116/24 
+  - IP-CIDR,193.108.118.153/24 
   - IP-CIDR,146.56.137.241/24
+  - IP-CIDR,13.215.250.242/24
