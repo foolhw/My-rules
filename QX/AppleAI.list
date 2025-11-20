@@ -1,6 +1,6 @@
 # NAME: AppleAI
 # UPDATED: 2025-11-20
-HOST-SUFFIX-SUFFIX,guzzoni.smoot.apple.com,AppleAI 
+HOST-SUFFIX,guzzoni.smoot.apple.com,AppleAI 
 HOST,apple-relay.apple.com,AppleAI
 HOST,apple-relay.cloudflare.com,AppleAI      
 HOST,apple-relay.fastly-edge.com,AppleAI     
