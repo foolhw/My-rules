@@ -1,6 +1,6 @@
 # NAME: AppleAI
 # UPDATED: 2025-11-21
-DOMAIN-SUFFIX,guzzoni.smoot.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com 
@@ -9,3 +9,6 @@ DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,siri.apple
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
