@@ -8,7 +8,8 @@ DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,siri.apple
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,fastly-edge.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
