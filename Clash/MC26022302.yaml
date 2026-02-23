@@ -1,0 +1,879 @@
+proxies:
+  - name: "AcckCloud｜日本"
+    type: vmess
+    server: 45.192.241.80
+    port: 443
+    uuid: 83de6f67-d434-4e4e-81e1-83d3e3d14152
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: false
+    tls: true
+    skip-cert-verify: true
+    servername: acckcloud.willee.top
+    network: ws
+    ws-opts:
+      path: /acck
+      headers:
+        Host: acckcloud.willee.top
+  - name: "Racknerd｜美国"
+    type: vless
+    server: 198.46.147.171
+    port: 443
+    uuid: 5063f4c1-2c64-4008-b599-0c82d642bde9
+    udp: false
+    tls: true
+    servername: vps.willee.top
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /willee
+      headers:
+        Host: vps.willee.top
+proxy-providers:
+  FC:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCHK:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "香港"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCTW:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "台湾"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCSG:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "新加坡"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCUS:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "美国"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCJP:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "日本"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCEU:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "德国|土耳其|英国|荷兰|法国|西班牙|意大利"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCSA:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "阿根廷|巴西|智利|埃及"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCAU:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "澳大利亚"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  FCMY:
+    type: http
+    path: ./yaml_bak/MC26021901/83f2db2ad4e25710d37c2a3481264caf
+    url: "https://api-huacloud.net/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.net%2Fosubscribe.php%3Ftoken2%3Djyg3xmmy-b20c2a47cagixl76qm%26sip002%3D1"
+    interval: 86400
+    filter: "马来西亚"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAG:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGHK:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "香港"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGTW:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "台湾"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGSG:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "新加坡"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGUS:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "美国"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGJP:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "日本"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGEU:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "德国|土耳其|英国|法国"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGSA:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "阿根廷|巴西"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGAU:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "澳大利亚"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+  TAGMY:
+    type: http
+    path: ./yaml_bak/MC26021901/b105805b51be1db3c867f43e5f9311e7
+    url: "https://link01.nobodys.uk/api/v1/trails/bolster?token=38a977bb34cfe9501b454bf3e4aa7b66"
+    interval: 86400
+    filter: "马来西亚"
+    health-check:
+      enable: true
+      url: "https://cp.cloudflare.com/generate_204"
+      interval: 300
+proxy-groups:
+  - name: "FCHK_AUTO"
+    type: url-test
+    use:
+      - FCHK
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "FCTW_AUTO"
+    type: url-test
+    use:
+      - FCTW
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "FCSG_AUTO"
+    type: url-test
+    use:
+      - FCSG
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "FCUS_AUTO"
+    type: url-test
+    use:
+      - FCUS
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "FCJP_AUTO"
+    type: url-test
+    use:
+      - FCJP
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "TAGHK_AUTO"
+    type: url-test
+    use:
+      - TAGHK
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "TAGTW_AUTO"
+    type: url-test
+    use:
+      - TAGTW
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "TAGSG_AUTO"
+    type: url-test
+    use:
+      - TAGSG
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "TAGUS_AUTO"
+    type: url-test
+    use:
+      - TAGUS
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+  - name: "TAGJP_AUTO"
+    type: url-test
+    use:
+      - TAGJP
+    url: https://cp.cloudflare.com/generate_204
+    interval: 
+  - name: "♻️ 手动切换"
+    type: select
+    proxies:
+      - DIRECT
+      - "AcckCloud｜日本"
+      - "Racknerd｜美国"
+    use:
+      - TAG
+      - FC
+  - name: "\U0001F1FA\U0001F1F8 美国节点"
+    type: select
+    proxies:
+      - TAGUS_AUTO
+      - FCUS_AUTO
+  - name: "\U0001F1ED\U0001F1F0 香港节点"
+    type: select
+    proxies:
+      - TAGHK_AUTO
+      - FCHK_AUTO
+  - name: "\U0001F1EF\U0001F1F5 日本节点"
+    type: select
+    proxies:
+      - TAGJP_AUTO
+      - FCJP_AUTO
+  - name: "\U0001F1F8\U0001F1EC 新加坡节点"
+    type: select
+    proxies:
+      - TAGSG_AUTO
+      - FCSG_AUTO
+  - name: "\U0001F1E8\U0001F1F3 台湾节点"
+    type: select
+    proxies:
+      - TAGTW_AUTO
+      - FCTW_AUTO
+  - name: "\U0001F1E9\U0001F1EA 欧洲节点"
+    type: select
+    use:
+      - TAGEU
+      - FCEU
+  - name: "\U0001F1E7\U0001F1F7 南美节点"
+    type: select
+    use:
+      - TAGSA
+      - FCSA
+  - name: "\U0001F1E6\U0001F1FA 澳洲节点"
+    type: select
+    use:
+      - TAGAU
+      - FCAU
+  - name: "\U0001F1F2\U0001F1FE 大马节点"
+    type: select
+    use:
+      - TAGMY
+      - FCMY
+  - name: "\U0001F34E Apple"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3A5 YouTube"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3A5 Netflix"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3A5 DisneyPlus"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3A5 ParamountPlus"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - "\U0001F1E6\U0001F1FA 澳洲节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3A5 Prime"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3A5 MAX"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F4FA BENTV"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - "\U0001F1E7\U0001F1F7 南美节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F4FA IPTV"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - "\U0001F1E7\U0001F1F7 南美节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F4FA Sportemby"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - "\U0001F1E7\U0001F1F7 南美节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F4BB OpenAI"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F4FA BiliBili"
+    type: select
+    proxies:
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3A5 TikTok"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F50D Google"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F4BB Microsoft"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3AE Steam"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3AE Playstation"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F3AE Nintendo"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F30D 国外网站"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F1E8\U0001F1F3 国内网站"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - ♻️ 手动切换
+      - DIRECT
+  - name: "\U0001F41F 漏网之鱼"
+    type: select
+    proxies:
+      - "\U0001F1FA\U0001F1F8 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F8\U0001F1EC 新加坡节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1E9\U0001F1EA 欧洲节点"
+      - ♻️ 手动切换
+      - DIRECT
+rule-providers:
+  Advertising:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml"
+    path: ./yaml_bak/MC26021901/0c921166f07458a9d51fd0f54f6dafe6
+    interval: 86400
+  TVB:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/myTVSUPER/myTVSUPER.yaml"
+    path: ./yaml_bak/MC26021901/eccb1f75402aabb62c53464db5ec18e2
+  BENTV:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/foolhw/My-rules/refs/heads/main/Clash/BENTV.yaml"
+    path: ./yaml_bak/MC26021901/ca1d9346780350878ce3fcdc34a44b40
+    interval: 86400
+  Astro:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/foolhw/My-rules/main/Clash/Astro.yaml"
+    path: ./yaml_bak/MC26021901/4b96e19902eb477e916f0baabb3d69ad
+    interval: 86400
+  Optus:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/foolhw/My-rules/main/Clash/Optus.yaml"
+    path: ./yaml_bak/MC26021901/31f6418063960ecc3f5f5a6a3c986811
+    interval: 86400
+  Sportemby:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/foolhw/My-rules/main/Clash/Sportemby.yaml"
+    path: ./yaml_bak/MC26021901/2816c0b0ccc6c82f5982c3d3ff0dd411
+    interval: 86400
+  IPTV:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/foolhw/My-rules/main/Clash/IPTV.yaml"
+    path: ./yaml_bak/MC26021901/f6a07f7e348a85bb8bc5c4e412de5151
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml"
+    path: ./yaml_bak/MC26021901/56e25c5e0f1c61fc29ff4d6431472eba
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/foolhw/ios_rule_script-by-blackmatrix7/master/rule/Clash/Microsoft/Microsoft.yaml"
+    path: ./yaml_bak/MC26021901/6671dc58f5eb45c87091adf14734415f
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
+    path: ./yaml_bak/MC26021901/d09625e67f543ea41cdbafddda56fe9e
+    interval: 86400
+  OpenAI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml"
+    path: ./yaml_bak/MC26021901/348c0bc4965ec31a0030d3cdf846979b
+    interval: 86400
+  Youtube:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
+    path: ./yaml_bak/MC26021901/bcfac926506e8d344097e53b0f3038ff
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_IP.yaml"
+    path: ./yaml_bak/MC26021901/ebb79d2fb3026b0a4d08d8c8adc17d81
+    interval: 86400
+  Prime:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.yaml"
+    path: ./yaml_bak/MC26021901/a2c2c56a0d5825bbed7de82917387351
+    interval: 86400
+  ParamountPlus:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ParamountPlus/ParamountPlus.yaml"
+    path: ./yaml_bak/MC26021901/546a91a4411a413f0d15e049b4a13b98
+    interval: 86400
+  DisneyPlus:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml"
+    path: ./yaml_bak/MC26021901/7cf609dd5db2092cd5581872f0a27506
+    interval: 86400
+  DiscoveryPlus:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml"
+    path: ./yaml_bak/MC26021901/9ea917c9101760dce7358c2e17e8cff4
+    interval: 86400
+  MAX:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBOUSA/HBOUSA.yaml"
+    path: ./yaml_bak/MC26021901/b5c309a188b9e715749251febc562427
+    interval: 86400
+  HULU:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hulu/Hulu.yaml"
+    path: ./yaml_bak/MC26021901/0f1594dbffb2d95eb8f7fa0afd99a574
+    interval: 86400
+  Peacock:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Peacock/Peacock.yaml"
+    path: ./yaml_bak/MC26021901/ce72c414b10100753427f38d9376de3b
+    interval: 86400
+  AMCPlus:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/foolhw/My-rules/main/Clash/AMCPlus.yaml"
+    path: ./yaml_bak/MC26021901/3a98ef0d22439606c4c86ae861347519
+    interval: 86400
+  HamiVideo:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HamiVideo/HamiVideo.yaml"
+    path: ./yaml_bak/MC26021901/28bdb000f3a9a32c80bf80ec74929988
+    interval: 86400
+  Bilibili:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml"
+    path: ./yaml_bak/MC26021901/e2ba48b67f0b8c6e69851151d8273ab4
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.yaml"
+    path: ./yaml_bak/MC26021901/9d2db652cffca962838cbf3ea33dfa5c
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
+    path: ./yaml_bak/MC26021901/2bdbd353af2c7704debdf62445413e86
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.yaml"
+    path: ./yaml_bak/MC26021901/f4264c11ec9bb19affa87552732427f0
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam.yaml"
+    path: ./yaml_bak/MC26021901/ecb7327d97128ce4fba38b7d83b3ddf9
+    interval: 86400
+  Playstation:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PlayStation/PlayStation.yaml"
+    path: ./yaml_bak/MC26021901/4a4a4a0f842ec3008c427cab8057deb3
+    interval: 86400
+  Nintendo:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.yaml"
+    path: ./yaml_bak/MC26021901/ab90f967f55be38cdb683d32bd5d069d
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.yaml"
+    path: ./yaml_bak/MC26021901/f25aebe6457a4335fa17b5069358c894
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml"
+    path: ./yaml_bak/MC26021901/7b6270ade05375d3fb400158f0467eab
+    interval: 86400
+rules:
+
+  # ===== LAN 保护（必须最前）=====
+  - IP-CIDR,192.168.50.0/24,DIRECT,no-resolve
+  - SRC-IP-CIDR,192.168.50.0/24,DIRECT
+  - GEOIP,private,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
+  - IP-CIDR,239.255.255.250/32,DIRECT,no-resolve
+  - DST-PORT,5353,DIRECT
+  - DST-PORT,1900,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,home.arpa,DIRECT
+
+  # ===== AppleTV 稳定优化（你家专属）=====
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+
+  # ===== 去广告 =====
+  - RULE-SET,Advertising,REJECT
+
+  # 自定义分流
+  - "DOMAIN-SUFFIX,gleeze.com,\U0001F1ED\U0001F1F0 香港节点"
+  - "DOMAIN-SUFFIX,mywire.org,\U0001F1ED\U0001F1F0 香港节点"
+
+  # 远程规则-指定地区节点
+  - "RULE-SET,Astro,\U0001F1F2\U0001F1FE 大马节点"
+  - "RULE-SET,TVB,\U0001F1ED\U0001F1F0 香港节点"
+  - "RULE-SET,HamiVideo,\U0001F1E8\U0001F1F3 台湾节点"
+  - "RULE-SET,Optus,\U0001F1E6\U0001F1FA 澳洲节点"
+  - "RULE-SET,AMCPlus,\U0001F1FA\U0001F1F8 美国节点"
+  - "RULE-SET,Peacock,\U0001F1FA\U0001F1F8 美国节点"
+  - "RULE-SET,HULU,\U0001F1FA\U0001F1F8 美国节点"
+  - "RULE-SET,DiscoveryPlus,\U0001F1FA\U0001F1F8 美国节点"
+  - "RULE-SET,Telegram,\U0001F1F8\U0001F1EC 新加坡节点"
+  
+  # 远程规则-分组
+  - "RULE-SET,OpenAI,\U0001F4BB OpenAI"
+  - "RULE-SET,Sportemby,\U0001F4FA Sportemby"
+  - "RULE-SET,BENTV,\U0001F4FA BENTV"
+  - "RULE-SET,IPTV,\U0001F4FA IPTV"
+  - "RULE-SET,Apple,\U0001F34E Apple"
+  - "RULE-SET,Youtube,\U0001F3A5 YouTube"
+  - "RULE-SET,Netflix,\U0001F3A5 Netflix"
+  - "RULE-SET,Prime,\U0001F3A5 Prime"
+  - "RULE-SET,ParamountPlus,\U0001F3A5 ParamountPlus"
+  - "RULE-SET,DisneyPlus,\U0001F3A5 DisneyPlus"
+  - "RULE-SET,MAX,\U0001F3A5 MAX"
+  - "RULE-SET,Bilibili,\U0001F4FA BiliBili"
+  - "RULE-SET,TikTok,\U0001F3A5 TikTok"
+  - "RULE-SET,Google,\U0001F50D Google"
+  - "RULE-SET,Microsoft,\U0001F4BB Microsoft"
+  - "RULE-SET,SteamCN,\U0001F3AE Steam"
+  - "RULE-SET,Steam,\U0001F3AE Steam"
+  - "RULE-SET,Playstation,\U0001F3AE Playstation"
+  - "RULE-SET,Nintendo,\U0001F3AE Nintendo"
+  - "RULE-SET,Global,\U0001F30D 国外网站"
+  - "RULE-SET,China,\U0001F1E8\U0001F1F3 国内网站"
+
+  # 🐟 漏网之鱼
+  - "MATCH,\U0001F41F 漏网之鱼"
+
+redir-port: 23457
+#面板设置
+external-controller: 192.168.50.1:9990
+external-ui: dashboard
+external-ui-name: zashboard
+external-ui-url: https://github.com/Zephyruso/zashboard/releases/latest/download/dist-cdn-fonts.zip
+secret: "clash"
+#缓存设置
+profile:
+  store-selected: true
+  store-fake-ip: true
+#GEO数据库
+geodata-mode: true
+geox-url:
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  geosite: "https://github.com/flyhigherpi/merlinclash_clash_related/raw/refs/heads/master/geosite/geosite.dat"
+#启动参数
+allow-lan: true
+mode: rule
+log-level: error
+ipv6: false
+unified-delay: true
+hosts:
+  services.googleapis.cn: 74.125.193.94
+  time.android.com: 203.107.6.88
+sniffer:
+  enable: true
+  force-dns-mapping: false
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    TLS:
+      ports: [443, 8443, 2053]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: false
+  force-domain:
+    - '+.v2ex.com'
+  skip-domain:
+    - 'Mijia Cloud'
+    - 'dlg.io.mi.com'
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  respect-rules: true
+
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+  proxy-server-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+
+  fallback:
+    - 1.1.1.1
+    - 8.8.8.8
+
+  fallback-filter:
+    geoip: true
+    ipcidr:
+    - 240.0.0.0/4
+    
+tproxy-port: 23458
+routing-mark: 255
