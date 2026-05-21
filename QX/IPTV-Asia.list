@@ -1,0 +1,29 @@
+# NAME: IPTV-Asia
+# UPDATED: 2026-05-21
+# FORMAT: Quantumult X filter rules
+# POLICY: IPTV
+
+
+# Hong Kong / TVB
+HOST-SUFFIX,tvb.com,IPTV
+HOST-SUFFIX,mytvsuper.com,IPTV
+HOST-SUFFIX,hoy.tv,IPTV
+HOST-SUFFIX,kozow.com,IPTV
+HOST-SUFFIX,mywire.org,IPTV
+HOST-KEYWORD,rthklive,IPTV
+HOST-KEYWORD,rthktv,IPTV
+
+# ASTRO
+HOST-SUFFIX,astro.com.my,IPTV
+HOST,linearjitp-playback.astro.com.my,IPTV
+HOST,mt33.aa.astro.com.my,IPTV
+
+# Singapore / MeWatch
+HOST,tglmp01.akamaized.net,IPTV
+HOST,tglmp02.akamaized.net,IPTV
+HOST,tglmp03.akamaized.net,IPTV
+HOST,tglmp04.akamaized.net,IPTV
+HOST,d29ecfnk3jwkp9.cloudfront.net,IPTV
+HOST-SUFFIX,starhubgo.com,IPTV
+HOST-SUFFIX,togglestatic.com,IPTV
+HOST,vercel-php-clearkey-hex-base64-json.vercel.app,IPTV
