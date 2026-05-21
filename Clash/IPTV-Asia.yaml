@@ -1,0 +1,27 @@
+# NAME: IPTV-Asia
+# UPDATED: 2026-05-21
+
+payload:
+  # Hong Kong / TVB
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,hoy.tv
+  - DOMAIN-SUFFIX,kozow.com
+  - DOMAIN-SUFFIX,mywire.org
+  - DOMAIN-KEYWORD,rthklive
+  - DOMAIN-KEYWORD,rthktv
+
+  # ASTRO
+  - DOMAIN-SUFFIX,astro.com.my
+  - DOMAIN,linearjitp-playback.astro.com.my
+  - DOMAIN,mt33.aa.astro.com.my
+
+  # Singapore / Mediacorp
+  - DOMAIN,tglmp01.akamaized.net
+  - DOMAIN,tglmp02.akamaized.net
+  - DOMAIN,tglmp03.akamaized.net
+  - DOMAIN,tglmp04.akamaized.net
+  - DOMAIN,d29ecfnk3jwkp9.cloudfront.net
+  - DOMAIN-SUFFIX,starhubgo.com
+  - DOMAIN-SUFFIX,togglestatic.com
+  - DOMAIN,vercel-php-clearkey-hex-base64-json.vercel.app
