@@ -5,25 +5,25 @@
 
 
 # Hong Kong / TVB
-HOST-SUFFIX,tvb.com,IPTV
-HOST-SUFFIX,mytvsuper.com,IPTV
-HOST-SUFFIX,hoy.tv,IPTV
-HOST-SUFFIX,kozow.com,IPTV
-HOST-SUFFIX,mywire.org,IPTV
-HOST-KEYWORD,rthklive,IPTV
-HOST-KEYWORD,rthktv,IPTV
+HOST-SUFFIX,tvb.com,IPTV-Asia
+HOST-SUFFIX,mytvsuper.com,IPTV-Asia
+HOST-SUFFIX,hoy.tv,IPTV-Asia
+HOST-SUFFIX,kozow.com,IPTV-Asia
+HOST-SUFFIX,mywire.org,IPTV-Asia
+HOST-KEYWORD,rthklive,IPTV-Asia
+HOST-KEYWORD,rthktv,IPTV-Asia
 
 # ASTRO
-HOST-SUFFIX,astro.com.my,IPTV
-HOST,linearjitp-playback.astro.com.my,IPTV
-HOST,mt33.aa.astro.com.my,IPTV
+HOST-SUFFIX,astro.com.my,IPTV-Asia
+HOST,linearjitp-playback.astro.com.my,IPTV-Asia
+HOST,mt33.aa.astro.com.my,IPTV-Asia
 
 # Singapore / MeWatch
-HOST,tglmp01.akamaized.net,IPTV
-HOST,tglmp02.akamaized.net,IPTV
-HOST,tglmp03.akamaized.net,IPTV
-HOST,tglmp04.akamaized.net,IPTV
-HOST,d29ecfnk3jwkp9.cloudfront.net,IPTV
-HOST-SUFFIX,starhubgo.com,IPTV
-HOST-SUFFIX,togglestatic.com,IPTV
-HOST,vercel-php-clearkey-hex-base64-json.vercel.app,IPTV
+HOST,tglmp01.akamaized.net,IPTV-Asia
+HOST,tglmp02.akamaized.net,IPTV-Asia
+HOST,tglmp03.akamaized.net,IPTV-Asia
+HOST,tglmp04.akamaized.net,IPTV-Asia
+HOST,d29ecfnk3jwkp9.cloudfront.net,IPTV-Asia
+HOST-SUFFIX,starhubgo.com,IPTV-Asia
+HOST-SUFFIX,togglestatic.com,IPTV-Asia
+HOST,vercel-php-clearkey-hex-base64-json.vercel.app,IPTV-Asia
